@@ -8,27 +8,7 @@
     padding: 20px 8vw;
     padding-top: 80px;
     margin-top: 100px;
-    width: 100vw;
-    position: relative;
-    left: -10.55rem;
-}
 
-@media only screen and (max-width: 1316px) {
-    .footer {
-        left: -8rem;
-    }
-}
-
-@media only screen and (max-width: 972px) {
-    .footer {
-        left: -6rem;
-    }
-}
-
-@media only screen and (max-width: 732px) {
-    .footer {
-        left: -4.5rem;
-    }
 }
 
 .footer-content {
@@ -67,4 +47,15 @@
     margin: 20px 0px;
     background-color: grey;
     border: none;
+}
+
+@media (max-width: 750px) {
+    .footer-content {
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+    }
+    .footer-copyright {
+        text-align: center;
+    }
 }
