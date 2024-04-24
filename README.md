@@ -16,7 +16,7 @@ The frontend is built with React.js, handling the user interface and interaction
 
 For administrative tasks and managing the system, there's an admin page available. Admins can access it using the following URL:
 
-[Admin Page URL](https://delivery-weld-one.vercel.app/admin)
+[Admin Page URL](https://delivery-weld-one.vercel.app)
 
 ## Backend
 
